@@ -1,0 +1,13 @@
+//
+
+
+//GET http://localhost:8080/print-logs 
+
+
+
+POST http://localhost:8080/new-log-level 
+content-type: application/json
+
+{
+    "newLogLevel": "warn"
+}
